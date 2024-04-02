@@ -1,0 +1,49 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f2f2f2;
+  color: #000;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px; /* Adjust padding as needed */
+  background-color: #f2f2f2; /* Header background color */
+}
+main {
+  text-align: center;
+}
+.illustration img {
+  max-width: 100%;
+  height: auto;
+}
+footer {
+  text-align: center;
+  margin-top: 20px;
+}
+.contact-info {
+  text-align: center;
+  margin-top: 20px;
+}
+.footer p {
+  display: inline;
+}
+.social-icons img {
+  width: 35px; 
+  height: auto;
+  margin-right: 10px; 
+}
+.logo img {
+  width: 105px;
+}
+h2 {
+  color: #981a2f;
+  font-family: cursive;
+}
+@media (max-width: 768px) {
+  .social-icons img {
+    width: 20px; 
+  }
+}
